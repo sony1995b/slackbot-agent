@@ -1,0 +1,23 @@
+{
+  "name": "slackbot-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "heesok,son",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/oauth": "^2.2.0",
+    "@slack/web-api": "^6.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "keyv": "^4.0.3",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}
